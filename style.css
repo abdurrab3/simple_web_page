@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*Navbar starting*/
+
+.menu-bar{
+    background-color: rgb(40, 94, 104);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    margin: 12px;
+    padding: 4px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background-color: #2aaf2a;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+padding-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 8.5px;
+    margin-left: -8px;
+    padding-left: -10px;
+    background: #2aaf2a;
+    border-radius: 3px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: inline-block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+/*Navbar End*/
+/*Hero Area start*/
+.hero-area{
+    background-image: url("https://cdn.pixabay.com/photo/2020/08/14/17/13/light-bulbs-5488573_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+}
+.hero-area h1{
+    color: #5bf75b;
+    font-size: 50px;
+    padding-top: 120px;
+    margin-left: 60px;
+}
+.hero-area h4{
+    padding-top: 10px;
+    margin-left: 60px;
+    color: #f3f3f3;
+}
+.hero-area p{
+    margin-left: 60px;
+    padding-top: 8px;
+    width: 420px;
+    font-weight: 100;
+    font-size: 14px;
+    color: #f3fff3;
+}
+.hero-area button{
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 8px 16px;
+    margin-bottom: 150px;
+    background-color: #2aaf2a;
+    color: #ffffff;
+    border: 0;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*End of Hero Area*/
+
+/* form */
+form{
+    background-color: darkgrey;
+}
+.form-part{
+    float: left;
+    width: 30%;
+    margin: 20px 0 0 269.5px;
+}
+.form-part-right{
+    float: right;
+    width: 30%;
+    margin: 20px 270px 0 0;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #51afc7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 60%;
+  background-color: #164918;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin-left: 269.5px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18;
+  &:hover{
+    background-color: rgb(88, 44, 44);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+div {
+  background-color: #56879e;
+  padding: 20px;
+}
+/* gellary */
+.gallery img{
+    height: 300px;
+    width: 310px;
+    margin-left: 1%;
+    padding-left: 1px;
+    padding-top: 6px;
+    border: 5px;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    &:hover{
+        color: #000000;
+        opacity: 60%;
+        transition: .5s;
+    }
+}
+

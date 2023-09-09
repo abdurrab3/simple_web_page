@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu bar design with dropdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="menu-bar">
+    <ul>
+        <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="#"><i class="fa fa-user"></i>About us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Vision</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#"> <i class="fa fa-clone"></i>Services</a></li>
+        <li><a href="#"> <i class="fa fa-phone"></i>Contact</a></li>
+        <li><a href="#"> <i class="fa fa-edit"></i>News</a></li> 
+    </ul>
+    </div>
+    <div class="hero-area">
+        <h1><span style="color: white;">Welcome to </span>Netsoftbd <br>
+             software
+             <span style="color: white;">solution hub</span>
+        </h1>
+        <h4>
+            We are provided to high quality software solution
+        </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, earum autem consequuntur rerum numquam cumque necessitatibus possimus omnis libero a.</p>
+    <button>Join us</button>
+    </div>
+
+    <!-- Form section -->
+        <form action="/" method="post">
+            <h2 style="text-align: center; color: rgb(23, 87, 49); padding-top: 20px; text-decoration: underline;">Course enrollment form</h2>
+
+            <div class="form-part">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="fname">Last Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+          <label for="fname">Mobile</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your mobile">
+      
+          <label for="lname">Present address</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your address">
+      
+          <label for="lname">Parmanent address</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your address">
+      
+          <label for="country">Course Level</label>
+          <select id="country" name="country">
+            <option value="australia">Begineer</option>
+            <option value="canada">Intermediate</option>
+            <option value="usa">Advanced</option>
+          </select>
+        </div>
+        <div class="form-part-right">
+            <label for="fname">Father's Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your father's name">
+            <label for="fname">Alternate number</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your number">
+            
+            <label for="fname">Home location</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your home">
+        
+            <label for="lname">District</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your district">
+        
+            <label for="lname">Zip code</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your zip code">
+        
+            <label for="country">Select course</label>
+            <select id="country" name="country">
+              <option value="australia">Ui Design</option>
+              <option value="canada">Web development</option>
+              <option value="usa">Product design</option>
+            </select>
+            </div>
+            <input type="submit">
+        </form>
+
+        <div class="gallery">
+            <h2 style="color: rgb(253, 215, 201); text-align: center; text-decoration: underline; padding-bottom: 16px;">Our Image Gallery</h2>
+            <img src="img-1.jpg" alt="" srcset="">
+            <img src="artificial-intelligence-4389372.jpg" alt="" srcset="">
+            <img src="658.jpg" alt="" srcset="">
+            <img src="mandalas-1084082.jpg" alt="" srcset="">
+            <img src="big-data.jpg" alt="" srcset="">
+            <img src="download.jpg" alt="" srcset="">
+            <img src="etherium.jpg" alt="" srcset="">
+            <img src="4k.jpg" alt="" srcset="">
+        </div>
+      
+</body>
+</html>
